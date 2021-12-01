@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    float: right;
+    background: rgb(34,195,88);
+background: linear-gradient(0deg, rgba(34,195,88,1) 0%, rgba(212,45,253,1) 100%);
+}
+
+#menu{
+    position: sticky;
+    float: left; 
+    top: 0;
+    z-index: 9999;
+}
+
+iframe{
+    height: 700px;
+    width: 700px;
+}
+marquee{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.navbar-header{
+    background-color: black;
+}
