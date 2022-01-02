@@ -1,26 +1,159 @@
 body{
     text-align: center;
-    float: right;
-    background: rgb(34,195,88);
-background: linear-gradient(0deg, rgba(34,195,88,1) 0%, rgba(212,45,253,1) 100%);
+    border-radius: 50%;
+    background: conic-gradient(turquoise 20deg, gold 45deg, orange 180deg, hotpink 210deg);
 }
 
-#menu{
+ .navbar-inverse{
     position: sticky;
     float: left; 
     top: 0;
     z-index: 9999;
+    width: 100%;
+}
+
+li:hover{
+    background-color: lightskyblue;
 }
 
 iframe{
-    height: 700px;
-    width: 700px;
+    width: 100%;
 }
+
 marquee{
     background-color: darkblue;
     color: aliceblue;
 }
 
-.navbar-header{
+.navbar-header, .navbar-collapse{
     background-color: black;
 }
+
+hr{
+    width: 230px;
+}
+
+.announcements_head img{
+    width: 100%;
+    padding: 5px;
+}
+
+
+.campus_life_div{
+    border: 1px solid turquoise;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+}
+
+.campus_life_div h5, .campus_life_div p{
+  float: none;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.announcements_head{
+    width: 100%;
+    display: inline-block;
+    padding: 6px 22px; 
+    margin-bottom: 15px; 
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.list-group, img{
+    border-radius: 10%;
+    width: 50%;
+}
+
+.achievements_head{
+    border-radius: 20px;
+    width: 100%;
+    display: inline-block;
+    padding: 6px 22px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.achievements_head img{
+    width: 100%;
+    padding: 5px;
+}
+
+.modal-content{
+    margin-top: 100px auto;
+}
+
+.img_modal{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.p_modal{
+    margin-top: 15px;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.bar{
+    height: 6px;
+    background-color: darkgoldenrod;
+    margin: 5px auto;
+    width: 50px;
+}
+
+.line{
+    height: 6px;
+    background-color: deeppink;
+    margin: 5px auto;
+    width: 50px;
+}
+
+.barline{
+    height: 6px;
+    background-color: limegreen;
+    margin: 5px auto;
+    width: 50px; 
+}
+
+.bar_line{
+    height: 6px;
+    background-color: deepskyblue;
+    margin: 5px auto;
+    width: 50px;   
+}
+
+.dashline{
+    height: 6px;
+    background-color: darkorchid;
+    margin: 5px auto;
+    width: 50px;   
+}
+
+.dash_line{
+    height: 6px;
+    background-color: orangered;
+    margin: 5px auto;
+    width: 50px;   
+}
+
+.line_dash{
+    height: 6px;
+    background-color: azure;
+    margin: 5px auto;
+    width: 50px;      
+}
+
+.dash{
+    height: 6px;
+    background-color: crimson;
+    margin: 5px auto;
+    width: 50px;   
+}
+
+
+
+
